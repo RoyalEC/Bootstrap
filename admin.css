@@ -1,0 +1,18 @@
+
+      body {
+        min-height: 100vh;
+      }
+      .sidebar {
+        height: 100vh;
+      }
+      .chart-card,
+      .progress-card,
+      .stats-card {
+        margin-bottom: 30px;
+      }
+      .profile-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    

@@ -1,0 +1,18 @@
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 0;
+  }
+  .card-body {
+    padding-top: 0;
+  }
+  .progress {
+    height: 1rem;
+  }
+  .progress-bar {
+    background-color: #007bff;
+  }
+
+  body{
+    height: 100vh
+  }
+  

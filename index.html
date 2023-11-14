@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile - John Smith</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container my-3">
+      <div class="card">
+        <div class="card-header text-center">
+          <img
+            src="data:image/png;base64,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"
+            class="rounded-circle"
+            alt="Sally Smith"
+            style="width: 100px"
+          />
+          <h3>Sally Smith</h3>
+          <p class="text-muted">Full Stack Developer</p>
+          <p class="text-muted">Bay Area, San Francisco, CA</p>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Profile</h5>
+              <p><strong>Full Name:</strong> Sally Smith</p>
+              <p><strong>Email:</strong> sally@example.com</p>
+              <p><strong>Phone:</strong> (097) 234-5678</p>
+              <p><strong>Mobile:</strong> (098) 765-4321</p>
+              <p><strong>Address:</strong> Bay Area, San Francisco, CA</p>
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-primary">Share</button>
+            </div>
+            <div class="col-md-8">
+              <h5>Skills</h5>
+              <p>Web Design</p>
+              <div class="progress mb-2">
+                <div class="progress-bar" style="width: 80%">80%</div>
+              </div>
+              <p>Website Markup</p>
+              <div class="progress mb-2">
+                <div class="progress-bar" style="width: 70%">70%</div>
+              </div>
+              <p>One Page</p>
+              <div class="progress mb-2">
+                <div class="progress-bar" style="width: 90%">90%</div>
+              </div>
+              <p>Mobile Template</p>
+              <div class="progress mb-2">
+                <div class="progress-bar" style="width: 60%">60%</div>
+              </div>
+              <p>Backend API</p>
+              <div class="progress mb-2">
+                <div class="progress-bar" style="width: 95%">95%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
